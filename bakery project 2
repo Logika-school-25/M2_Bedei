@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Про нас — Beige & Bread</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Beige & Bread</a>
+
+    <button class="burger" id="burgerAbout">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNavAbout">
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="index.html#products">Продукція</a></li>
+        <li><a href="index.html#order">Замовити</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="about-hero">
+    <div class="container about-hero-inner">
+      <div class="about-text slide-up">
+        <h1>Beige & Bread — пекарня, створена з теплом</h1>
+        <p class="lead">
+          Ми не просто печемо хліб — ми створюємо атмосферу дому, затишку і справжнього смаку.
+        </p>
+        <p>
+          Починали з маленької кухні та рецепта, який передавався в родині роками.
+          Сьогодні ми пекарня, яка щодня годує сотні людей свіжою випічкою.
+        </p>
+      </div>
+
+      <div class="about-media fade-in">
+        <img src="img/team.jpg" alt="Наша пекарня">
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section class="values">
+    <div class="container">
+      <h2>Наші цінності</h2>
+      <ul class="values-list">
+        <li class="card">Натуральність</li>
+        <li class="card">Чесність</li>
+        <li class="card">Любов до деталей</li>
+        <li class="card">Традиції</li>
+        <li class="card">Повага до клієнтів</li>
+        <li class="card">Свіжість щодня</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="story">
+    <div class="container">
+      <h2>Наша історія</h2>
+
+      <p>
+        Перший хліб ми спекли у 2014 році — проста буханка житнього хліба на заквасці.
+        Нашим першим клієнтом був сусід. Потім друзі. Потім весь район.
+      </p>
+
+      <p>
+        Ми зрозуміли, що люди хочуть справжнього хліба. Не фабричного, не замороженого,
+        а такого, який пахне дитинством і теплом. Так народилась філософія Beige & Bread.
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>2014</h3>
+          <p>Перший хліб на домашній кухні</p>
+        </div>
+        <div class="card">
+          <h3>2017</h3>
+          <p>Відкриття першої маленької пекарні</p>
+        </div>
+        <div class="card">
+          <h3>2022</h3>
+          <p>Виробництво нового покоління</p>
+        </div>
+        <div class="card">
+          <h3>2024</h3>
+          <p>Розширення команди та інновації</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW WE BAKE -->
+  <section class="baking">
+    <div class="container">
+      <h2>Як ми печемо</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>1. Закваска</h3>
+          <p>Хліб на власній натуральній заквасці без дріжджів.</p>
+        </div>
+
+        <div class="card">
+          <h3>2. Витримка</h3>
+          <p>Тісто дозріває 12–24 години для ідеального смаку.</p>
+        </div>
+
+        <div class="card">
+          <h3>3. Випікання</h3>
+          <p>Печемо у паровій печі при високій температурі.</p>
+        </div>
+
+        <div class="card">
+          <h3>4. Подача</h3>
+          <p>Хліб продаємо тільки свіжим у день випікання.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIG PHOTO -->
+  <section class="big-photo">
+    <img src="img/bread-1.jpg" alt="Хліб" style="width:100%; height:350px; object-fit:cover; border-radius:14px;">
+  </section>
+
+  <!-- TEAM -->
+  <section class="team">
+    <div class="container">
+      <h2>Команда</h2>
+
+      <div class="cards">
+        <article class="card">
+          <img src="img/baker-1.jpg" alt="Пекар" style="border-radius:12px;">
+          <h3>Олексій — Головний пекар</h3>
+          <p>10+ років досвіду</p>
+        </article>
+
+        <article class="card">
+          <img src="img/baker-2.jpg" alt="Пекарка" style="border-radius:12px;">
+          <h3>Маша — Кондитер</h3>
+          <p>Спеціалістка з десертів</p>
+        </article>
+
+        <article class="card">
+          <img src="img/baker-3.jpg" alt="Пекар" style="border-radius:12px;">
+          <h3>Дмитро — Майстер тіста</h3>
+          <p>Контроль процесів ферментації</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- NUMBERS -->
+  <section class="numbers">
+    <div class="container">
+      <h2>Цифри про нас</h2>
+      <div class="cards">
+        <div class="card"><h3>500+</h3><p>Буханок щодня</p></div>
+        <div class="card"><h3>20+</h3><p>Видів випічки</p></div>
+        <div class="card"><h3>8</h3><p>Пекарів у команді</p></div>
+        <div class="card"><h3>1000+</h3><p>Постійних клієнтів</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews">
+    <div class="container">
+      <h2>Відгуки клієнтів</h2>
+
+      <div class="cards">
+        <div class="card">
+          <p>“Найсмачніший хліб у місті! Смак дитинства.”</p>
+          <strong>— Марина</strong>
+        </div>
+
+        <div class="card">
+          <p>“Круасани просто тануть у роті. 10/10.”</p>
+          <strong>— Богдан</strong>
+        </div>
+
+        <div class="card">
+          <p>“Щодня беру до роботи — завжди свіжо!”</p>
+          <strong>— Ірина</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
